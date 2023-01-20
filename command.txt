@@ -1,0 +1,29 @@
+npx json-server -p 3500 -w data/db.json
+json-server --watch data/db.json --port 8000
+npm i axios
+
+
+
+to add to create site
+
+npm i gh-pages --save-dev
+
+"homepage":"https://Luhgarcodes.github.io/api-fetching-react-js",
+ 
+ 
+ scripts
+
+
+ "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+
+npm run deploy
+
+
+echo "# api-fetching-reactjs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Luhgarcodes/api-fetching-reactjs.git
+git push -u origin main
